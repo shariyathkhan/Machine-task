@@ -1,5 +1,6 @@
 # currencyapp
 
+.env file I have used for security purposes. API URL is available for that file. I have already shared this with Ignacio Elorduy.
 
 Instructions
 1. flutter SDK latest version 3.3.3

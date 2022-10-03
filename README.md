@@ -1,18 +1,25 @@
 # currencyapp
 
-A new Flutter project.
 
-## Getting Started
+Instructions
+1. flutter SDK latest version 3.3.3
+2. Create project using com.currency.app.
+3. Using Getx or bLoc. But here I have used Getx.
+4. Flutter run - check in debug mode
+5. flutter build apk --release use this cmd build tha apk
 
-This project is a starting point for a Flutter application.
+Design pattern
 
-A few resources to get you started if this is your first Flutter project:
+1. GetX is not only a state management library but it is an ultra light, fast, reliable microframework for flutter which provides route management and dependency injection as well. Flutter is moving very fast and gaining a favorite place amongst developers.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+2.MVC pattern
+3.Get_cli with help automatically created view,controller,provider and models
+4.Easily codes maintain.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Image loaded
+1.cached_network_image 3.2.2 (A flutter library to show images from the internet and keep them in the cache directory).
 
-1. flutter SDK 
+Database
+1.Sqflite - Large data loaded.
+2.Get storage - Gext pattern using. so I have used get storage.
+3.Shared preference.

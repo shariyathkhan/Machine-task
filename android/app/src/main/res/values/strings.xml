@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <string name="app_name">Yakin</string>
+    <string name="facebook_app_id">948608812692503</string>
+    <string name="fb_login_protocol_scheme">fb948608812692503</string> -->
+
+    <string name="app_name">Yakin</string>
+    <string name="facebook_app_id">1113624959422497</string>
+    <string name="fb_login_protocol_scheme">fb1113624959422497</string>
+    <string name="facebook_client_token">7504301451bdaa9d1b2758ae8dc2c01d</string>
+    <string name="subuh_notification_channel">SUBUH NOTIFICATION</string>
+    <string name="subuh_channel_description">Used for settings Subuh Notification</string>
+    <string name="zohor_notification_channel">ZOHOR NOTIFICATION</string>
+    <string name="zohor_channel_description">Used for settings Zohor Notification</string>
+    <string name="asar_notification_channel">ASAR NOTIFICATION</string>
+    <string name="asar_channel_description">Used for settings Asar Notification</string>
+    <string name="maghrib_notification_channel">MAGHRIB NOTIFICATION</string>
+    <string name="maghrib_channel_description">Used for settings Maghrib Notification</string>
+    <string name="isyak_notification_channel">ISYAK NOTIFICATION</string>
+    <string name="isyak_channel_description">Used for settings Isyak Notification</string>
+    <string name="reminders_notification_channel">REMINDER NOTIFICATION</string>
+    <string name="reminders_channel_description">Used for settings Reminder Notification</string>
+</resources>

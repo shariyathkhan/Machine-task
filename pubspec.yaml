@@ -1,0 +1,51 @@
+name: currencyapp
+version: 1.0.13+17
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  get: ^4.6.1
+  flutter_dotenv: 5.0.2
+  get_storage: ^2.0.3
+  flutter_screenutil: ^5.5.4
+  platform: ^3.1.0
+  change_app_package_name: ^1.0.0
+  flag: ^6.0.0
+
+  #  dio: ^4.0.4
+  #  dio: ^4.0.4
+  package_info: 2.0.2
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.9.2
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: launcher_icon
+  image_path: assets/images/app_launcher.png
+  ios: true
+
+flutter:
+  assets:
+    - assets/
+    - assets/icons/flags/png/
+    - .env
+  fonts:
+    - family: lexend
+      fonts:
+        - asset: assets/fonts/Lexend-Thin.ttf
+        - asset: assets/fonts/Lexend-SemiBold.ttf
+        - asset: assets/fonts/Lexend-Regular.ttf
+        - asset: assets/fonts/Lexend-Medium.ttf
+        - asset: assets/fonts/Lexend-Light.ttf
+        - asset: assets/fonts/Lexend-ExtraLight.ttf
+        - asset: assets/fonts/Lexend-ExtraBold.ttf
+        - asset: assets/fonts/Lexend-Bold.ttf
+        - asset: assets/fonts/Lexend-Black.ttf
+        - asset: assets/fonts/Lexend-VariableFont_wght.ttf
+  uses-material-design: true
